@@ -29,7 +29,7 @@ for (let i = 0; i < atletas.length; i++){
         total.sort(function(a, b) {
             return a - b;
         });
-        return total
+        return total.sort()
     })
 
 }
